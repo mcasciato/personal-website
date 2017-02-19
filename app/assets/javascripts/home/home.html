@@ -18,9 +18,13 @@
 </div>
 
 <div class="pusher">
-        <ui-view class="ui basic segment">
-            <div ng-include="'home/home.welcome.html'"></div>
-        </ui-view>
+    <div class="ui grid">
+        <div class="twelve wide column">
+            <ui-view class="ui basic segment">
+                <div ng-include="'home/home.welcome.html'"></div>
+            </ui-view>
+        </div>
+    </div>
 </div>
 
 <script type="text/javascript">
