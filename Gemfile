@@ -28,6 +28,8 @@ gem 'responders'
 gem 'active_model_serializers'
 # Use for html templates in asset pipeline
 gem 'angular-rails-templates'
+# Use Devicon for code language icons
+gem 'devicon-rails'
 
 
 group :development, :test do
