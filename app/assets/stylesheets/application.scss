@@ -13,6 +13,11 @@
     transition: all 0.2s ease-in-out;
 }
 
+#contact a {
+    color: inherit;
+    text-decoration: none;
+}
+
 i.linkedin:hover {
     opacity: .9;
     color: #1B85BC;
