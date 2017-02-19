@@ -8,3 +8,12 @@
 .ui.inverted.thin.sidebar {
     background-color: #16a085;
 }
+
+#contact i {
+    transition: all 0.2s ease-in-out;
+}
+
+i.linkedin:hover {
+    opacity: .9;
+    color: #1B85BC;
+}
