@@ -22,3 +22,15 @@
             <div ng-include="'home/home.welcome.html'"></div>
         </ui-view>
 </div>
+
+<script type="text/javascript">
+$('.ui.inverted.thin.sidebar')
+  .on('click', '.item', function() {
+    if(!$(this).hasClass('icon')) {
+      $(this)
+        .addClass('active')
+        .siblings('.item')
+          .removeClass('active');
+    }
+  });
+</script>
