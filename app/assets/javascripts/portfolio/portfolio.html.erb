@@ -1,6 +1,6 @@
 <h1>Portfolio</h1>
 
-<div class="ui two stacked link cards">
+<div class="ui two stacked link cards" ui-sref='home.flix4me'>
     <div class="card">
         <div class="image">
             <img src="<%= asset_path('flix4me.jpeg') %>" alt="">
@@ -11,7 +11,7 @@
           Project description.
         </div>
       </div>
-      <div class="ui bottom attached button" id="modal1">
+      <div class="ui bottom attached button" ui-sref='home.flix4me'>
         <i class="add icon"></i>
         More Info
       </div>
@@ -26,7 +26,7 @@
           Project description.
         </div>
       </div>
-      <div class="ui bottom attached button" id="modal2">
+      <div class="ui bottom attached button">
         <i class="add icon"></i>
         More Info
       </div>
@@ -41,7 +41,7 @@
           Project description.
         </div>
       </div>
-      <div class="ui bottom attached button" id="modal3">
+      <div class="ui bottom attached button">
         <i class="add icon"></i>
         More Info
       </div>
@@ -56,49 +56,9 @@
           Project description.
         </div>
       </div>
-      <div class="ui bottom attached button" id="modal4">
+      <div class="ui bottom attached button">
         <i class="add icon"></i>
         More Info
       </div>
     </div>
 </div>
-
-<!-- remove modals and just make more detailed cards or possibly link to a new page? -->
-<div class="ui modal" id="modal1">
-  <i class="close icon"></i>
-  <div class="header">
-    App #1 Title
-  </div>
-  <div class="image content">
-    <div class="ui medium image">
-      <img src="http://semantic-ui.com/images/avatar2/large/matthew.png">
-    </div>
-    <div class="description">
-      <div class="ui header">We've auto-chosen a profile image for you.</div>
-      <p>App #1 description</p>
-      <div class="ui large labels">
-        <div class="ui label">
-          Fun
-        </div>
-        <div class="ui label">
-          Happy
-        </div>
-        <div class="ui label">
-          Smart
-        </div>
-        <div class="ui label">
-          Witty
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<script type="text/javascript">
-    $('.modal')
-        .modal({
-          inverted: true
-        })
-        .modal('attach events', '#modal1', 'show')
-    ;
-</script>

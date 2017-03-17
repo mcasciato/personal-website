@@ -14,6 +14,10 @@ angular
                 url: 'portfolio',
                 templateUrl: 'portfolio/portfolio.html'
             })
+            .state('home.flix4me' , {
+                url: 'portfolio/flix4me',
+                templateUrl: 'portfolio/flix4me.html'
+            })
             .state('home.contact', {
                 url: 'contact',
                 templateUrl: 'contact/contact.html'
