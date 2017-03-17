@@ -22,6 +22,10 @@ angular
                 url: 'portfolio/myceus',
                 templateUrl: 'portfolio/myceus.html'
             })
+            .state('home.sinatraInstruments' , {
+                url: 'portfolio/sinatraInstruments',
+                templateUrl: 'portfolio/sinatraInstruments.html'
+            })
             .state('home.contact', {
                 url: 'contact',
                 templateUrl: 'contact/contact.html'
