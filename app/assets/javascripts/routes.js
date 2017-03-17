@@ -26,6 +26,10 @@ angular
                 url: 'portfolio/sinatraInstruments',
                 templateUrl: 'portfolio/sinatraInstruments.html'
             })
+            .state('home.politicalNews' , {
+                url: 'portfolio/politicalNews',
+                templateUrl: 'portfolio/politicalNews.html'
+            })
             .state('home.contact', {
                 url: 'contact',
                 templateUrl: 'contact/contact.html'
