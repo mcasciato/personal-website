@@ -1,0 +1,40 @@
+<h1>Flix4Me <span><a href="https://flix4me.herokuapp.com" target="_blank" class="large primary right floated ui button">See it Live</a></span></h1>
+<p>My friends and I love talking about movies. Now that we’re spread across the country, it’s not as easy to do as as when we were in college. I wanted a solution for this akin to how Goodreads does so for books. Enter Flix4Me.</p>
+
+<p>I wanted navigating the app to be lightning fast, so I decided to utilize AngularJS on the front end to make it a single page app. I then created custom Rails API on the back end that seamlessly communicates with the front end. I decided on Postgres for the database for easier future deployment to Heroku. As for styling, I began with Bootstrap 4 then customized it heavily from the stock color palette and options. The app allows users to add, edit, and delete movies to their collection. Currently, movie details must be added manually (title, year, plot, genre, personal rating). Users can comment on movies in their collection and increment the number of times they’ve watched it with a single click.</p>
+
+<p>When implementing the comment feature, the app would not display the newest comment upon creation unless the user navigated away from the page and then returned. Obviously, this is less than ideal. Luckily, this ended up being an easy fix. By using the <code>.push</code> function,  the newest comment would be added to the end of the array of all comments. Then, thanks to AngularJS’s <code>ng-repeat</code> directive, the newest comment instantaneously appears at the end of the list of comments on the page. There is a lot in store for Flix4Me. I am planning on adding movie posters to a movie’s details and also incorporating a third party API to allow for a new way to add a movie--just a simple search and click to add. These are just my initial thoughts, but I’m sure there will be more to come. </p>
+
+<div class="ui list">
+  <div class="item">
+    <i class="check square icon"></i>
+    <div class="content">
+      Utilized an AngularJS front end for a dynamic and responsive front end, allowing for quick searching and filtering features
+    </div>
+  </div>
+  <div class="item">
+    <i class="check square icon"></i>
+    <div class="content">
+      Built RESTful API using Ruby on Rails and the MVC pattern
+    </div>
+  </div>
+  <div class="item">
+    <i class="check square icon"></i>
+    <div class="content">
+      Designed front end with Bootstrap 4 and custom CSS
+    </div>
+  </div>
+</div>
+
+<h3>Primary Skills Utilized:</h3>
+<div class="ui horizontal massive list">
+    <div class="item">
+        <i class="devicon-angularjs-plain colored"></i>
+    </div>
+    <div class="item">
+        <i class="devicon-rails-plain colored"></i>
+    </div>
+    <div class="item">
+        <i class="devicon-bootstrap-plain colored"></i>
+    </div>
+</div>
