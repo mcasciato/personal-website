@@ -14,19 +14,19 @@ angular
                 url: 'portfolio',
                 templateUrl: 'portfolio/portfolio.html'
             })
-            .state('home.flix4me' , {
+            .state('home.flix4me', {
                 url: 'portfolio/flix4me',
                 templateUrl: 'portfolio/flix4me.html'
             })
-            .state('home.myceus' , {
+            .state('home.myceus', {
                 url: 'portfolio/myceus',
                 templateUrl: 'portfolio/myceus.html'
             })
-            .state('home.sinatraInstruments' , {
+            .state('home.sinatraInstruments', {
                 url: 'portfolio/sinatraInstruments',
                 templateUrl: 'portfolio/sinatraInstruments.html'
             })
-            .state('home.politicalNews' , {
+            .state('home.politicalNews', {
                 url: 'portfolio/politicalNews',
                 templateUrl: 'portfolio/politicalNews.html'
             })
