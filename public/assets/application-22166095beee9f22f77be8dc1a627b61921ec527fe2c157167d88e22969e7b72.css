@@ -1,0 +1,1310 @@
+/*
+
+
+
+
+ */
+@import url(semantic-ui/dist/semantic.css);
+/* line 11, /Users/michaelcasciato/Code/personal-website/app/assets/stylesheets/application.scss */
+.ui.inverted.thin.sidebar {
+  background-color: #16a085;
+}
+
+/* line 16, /Users/michaelcasciato/Code/personal-website/app/assets/stylesheets/application.scss */
+#contact i {
+  transition: all 0.2s ease-in-out;
+}
+/* line 20, /Users/michaelcasciato/Code/personal-website/app/assets/stylesheets/application.scss */
+#contact a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* line 28, /Users/michaelcasciato/Code/personal-website/app/assets/stylesheets/application.scss */
+i.linkedin:hover {
+  opacity: .9;
+  color: #1B85BC;
+}
+/* line 35, /Users/michaelcasciato/Code/personal-website/app/assets/stylesheets/application.scss */
+i.twitter:hover {
+  opacity: .9;
+  color: #1DA1F2;
+}
+/* line 42, /Users/michaelcasciato/Code/personal-website/app/assets/stylesheets/application.scss */
+i.medium:hover {
+  opacity: .9;
+  color: #00AB6B;
+}
+/**
+ * Devicon V2 version 2.1
+ * Made by konpa
+ */
+@font-face {
+  font-family: 'devicon';
+  src: url(/assets/devicon-076ad0a66252711c0b51d0d7b1c9bd6e2a1e4ca48ad82e9dad493dab29ddd0ba.eot?-hdf3wh);
+  src: url(/assets/devicon-076ad0a66252711c0b51d0d7b1c9bd6e2a1e4ca48ad82e9dad493dab29ddd0ba.eot?#iefix-hdf3wh) format("embedded-opentype"), url(/assets/devicon-a0b954d0faa78ff9e0d96a667f15d6ac853ab028400202c3b97bdfcf63916fa0.woff?-hdf3wh) format("woff"), url(/assets/devicon-44222c9dd2d591f0dce02ac3f13a3615bc906007b8e4feec503eb9d8b251ffdc.ttf?-hdf3wh) format("truetype"), url(/assets/devicon-f96413b22a5eadb277ab197543192446bc838e3b7752eabc06a7a60766ff2b6e.svg?-hdf3wh#devicon) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 18, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+[class^="devicon-"], [class*=" devicon-"] {
+  font-family: 'devicon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 32, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-ssh-original-wordmark:before,
+.devicon-ssh-plain-wordmark:before {
+  content: "\e900";
+}
+
+/* line 36, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-ssh-original:before,
+.devicon-ssh-plain:before {
+  content: "\e901";
+}
+
+/* line 40, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-sourcetree-original-wordmark:before,
+.devicon-sourcetree-plain-wordmark:before {
+  content: "\e902";
+}
+
+/* line 44, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-sourcetree-original:before,
+.devicon-sourcetree-plain:before {
+  content: "\e903";
+}
+
+/* line 48, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-phpstorm-plain-wordmark:before {
+  content: "\e904";
+}
+
+/* line 51, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-phpstorm-plain:before {
+  content: "\e905";
+}
+
+/* line 54, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-jeet-plain-wordmark:before {
+  content: "\e906";
+}
+
+/* line 57, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-jeet-plain:before {
+  content: "\e907";
+}
+
+/* line 60, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-gitlab-plain-wordmark:before {
+  content: "\e908";
+}
+
+/* line 63, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-gitlab-plain:before {
+  content: "\e909";
+}
+
+/* line 66, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-github-original-wordmark:before,
+.devicon-github-plain-wordmark:before {
+  content: "\e90a";
+}
+
+/* line 70, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-github-original:before,
+.devicon-github-plain:before {
+  content: "\e90b";
+}
+
+/* line 74, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-d3js-plain:before {
+  content: "\e90c";
+}
+
+/* line 77, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-confluence-original-wordmark:before,
+.devicon-confluence-plain-wordmark:before {
+  content: "\e90d";
+}
+
+/* line 81, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-confluence-original:before,
+.devicon-confluence-plain:before {
+  content: "\e90e";
+}
+
+/* line 85, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-bitbucket-original-wordmark:before,
+.devicon-bitbucket-plain-wordmark:before {
+  content: "\e90f";
+}
+
+/* line 89, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-bitbucket-original:before,
+.devicon-bitbucket-plain:before {
+  content: "\e910";
+}
+
+/* line 93, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-safari-line-wordmark:before {
+  content: "\e632";
+}
+
+/* line 96, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-safari-line:before {
+  content: "\e63a";
+}
+
+/* line 99, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-safari-plain-wordmark:before {
+  content: "\e63b";
+}
+
+/* line 102, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-safari-plain:before {
+  content: "\e63c";
+}
+
+/* line 105, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-jetbrains-plain:before,
+.devicon-jetbrains-line:before,
+.devicon-jetbrains-line-wordmark:before,
+.devicon-jetbrains-plain-wordmark:before {
+  content: "\e63d";
+}
+
+/* line 111, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-django-line:before,
+.devicon-django-line-wordmark:before {
+  content: "\e63e";
+}
+
+/* line 115, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-django-plain:before,
+.devicon-django-plain-wordmark:before {
+  content: "\e63f";
+}
+
+/* line 120, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-gimp-plain:before {
+  content: "\e633";
+}
+
+/* line 124, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-redhat-plain-wordmark:before {
+  content: "\e62a";
+}
+
+/* line 128, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-redhat-plain:before {
+  content: "\e62b";
+}
+
+/* line 132, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-cplusplus-line:before,
+.devicon-cplusplus-line-wordmark:before {
+  content: "\e634";
+}
+
+/* line 137, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-cplusplus-plain:before,
+.devicon-cplusplus-plain-wordmark:before {
+  content: "\e635";
+}
+
+/* line 142, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-csharp-line:before,
+.devicon-csharp-line-wordmark:before {
+  content: "\e636";
+}
+
+/* line 147, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-csharp-plain:before,
+.devicon-csharp-plain-wordmark:before {
+  content: "\e637";
+}
+
+/* line 152, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-c-line:before,
+.devicon-c-line-wordmark:before {
+  content: "\e638";
+}
+
+/* line 157, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-c-plain:before,
+.devicon-c-plain-wordmark:before {
+  content: "\e639";
+}
+
+/* line 162, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-nodewebkit-line-wordmark:before {
+  content: "\e611";
+}
+
+/* line 166, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-nodewebkit-line:before {
+  content: "\e612";
+}
+
+/* line 170, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-nodewebkit-plain-wordmark:before {
+  content: "\e613";
+}
+
+/* line 174, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-nodewebkit-plain:before {
+  content: "\e614";
+}
+
+/* line 178, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-nginx-original:before,
+.devicon-nginx-original-wordmark:before,
+.devicon-nginx-plain:before,
+.devicon-nginx-plain-wordmark:before {
+  content: "\e615";
+}
+
+/* line 185, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-erlang-plain-wordmark:before {
+  content: "\e616";
+}
+
+/* line 189, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-erlang-plain:before {
+  content: "\e617";
+}
+
+/* line 193, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-doctrine-line-wordmark:before {
+  content: "\e618";
+}
+
+/* line 197, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-doctrine-line:before {
+  content: "\e619";
+}
+
+/* line 201, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-doctrine-plain-wordmark:before {
+  content: "\e61a";
+}
+
+/* line 205, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-doctrine-plain:before {
+  content: "\e625";
+}
+
+/* line 209, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-apache-line-wordmark:before {
+  content: "\e626";
+}
+
+/* line 213, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-apache-line:before {
+  content: "\e627";
+}
+
+/* line 217, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-apache-plain-wordmark:before {
+  content: "\e628";
+}
+
+/* line 221, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-apache-plain:before {
+  content: "\e629";
+}
+
+/* line 225, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-go-line:before {
+  content: "\e610";
+}
+
+/* line 229, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-redis-plain-wordmark:before {
+  content: "\e606";
+}
+
+/* line 233, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-redis-plain:before {
+  content: "\e607";
+}
+
+/* line 237, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-meteor-plain-wordmark:before {
+  content: "\e608";
+}
+
+/* line 241, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-meteor-plain:before {
+  content: "\e609";
+}
+
+/* line 245, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-heroku-line-wordmark:before,
+.devicon-heroku-original-wordmark:before {
+  content: "\e60a";
+}
+
+/* line 250, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-heroku-line:before,
+.devicon-heroku-original:before {
+  content: "\e60b";
+}
+
+/* line 255, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-heroku-plain-wordmark:before {
+  content: "\e60c";
+}
+
+/* line 259, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-heroku-plain:before {
+  content: "\e60f";
+}
+
+/* line 263, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-go-plain:before {
+  content: "\e61b";
+}
+
+/* line 267, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-docker-plain-wordmark:before {
+  content: "\e61e";
+}
+
+/* line 271, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-docker-plain:before {
+  content: "\e61f";
+}
+
+/* line 275, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-amazonwebservices-original:before,
+.devicon-amazonwebservices-plain:before {
+  content: "\e603";
+}
+
+/* line 280, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-amazonwebservices-plain-wordmark:before {
+  content: "\e604";
+}
+
+/* line 284, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-android-plain-wordmark:before {
+  content: "\e60d";
+}
+
+/* line 288, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-android-plain:before {
+  content: "\e60e";
+}
+
+/* line 292, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-angularjs-plain-wordmark:before {
+  content: "\e61c";
+}
+
+/* line 296, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-angularjs-plain:before {
+  content: "\e61d";
+}
+
+/* line 300, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-appcelerator-original:before,
+.devicon-appcelerator-plain:before {
+  content: "\e620";
+}
+
+/* line 305, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-appcelerator-plain-wordmark:before {
+  content: "\e621";
+}
+
+/* line 309, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-apple-original:before,
+.devicon-apple-plain:before {
+  content: "\e622";
+}
+
+/* line 314, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-atom-original-wordmark:before,
+.devicon-atom-plain-wordmark:before {
+  content: "\e623";
+}
+
+/* line 319, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-atom-original:before,
+.devicon-atom-plain:before {
+  content: "\e624";
+}
+
+/* line 324, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-backbonejs-plain-wordmark:before {
+  content: "\e62c";
+}
+
+/* line 328, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-backbonejs-plain:before {
+  content: "\e62d";
+}
+
+/* line 332, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-bootstrap-plain-wordmark:before {
+  content: "\e62e";
+}
+
+/* line 336, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-bootstrap-plain:before {
+  content: "\e62f";
+}
+
+/* line 340, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-bower-line-wordmark:before {
+  content: "\e630";
+}
+
+/* line 344, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-bower-line:before {
+  content: "\e631";
+}
+
+/* line 348, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-bower-plain-wordmark:before {
+  content: "\e64e";
+}
+
+/* line 352, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-bower-plain:before {
+  content: "\e64f";
+}
+
+/* line 356, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-chrome-plain-wordmark:before {
+  content: "\e665";
+}
+
+/* line 360, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-chrome-plain:before {
+  content: "\e666";
+}
+
+/* line 364, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-codeigniter-plain-wordmark:before {
+  content: "\e667";
+}
+
+/* line 368, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-codeigniter-plain:before {
+  content: "\e668";
+}
+
+/* line 372, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-coffeescript-original-wordmark:before,
+.devicon-coffeescript-plain-wordmark:before {
+  content: "\e669";
+}
+
+/* line 377, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-coffeescript-original:before,
+.devicon-coffeescript-plain:before {
+  content: "\e66a";
+}
+
+/* line 382, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-css3-plain-wordmark:before {
+  content: "\e678";
+}
+
+/* line 386, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-css3-plain:before {
+  content: "\e679";
+}
+
+/* line 390, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-debian-plain-wordmark:before {
+  content: "\e67e";
+}
+
+/* line 394, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-debian-plain:before {
+  content: "\e67f";
+}
+
+/* line 398, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-dot-net-plain-wordmark:before {
+  content: "\e6d3";
+}
+
+/* line 402, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-dot-net-plain:before {
+  content: "\e6d4";
+}
+
+/* line 406, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-drupal-plain-wordmark:before {
+  content: "\e6e2";
+}
+
+/* line 410, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-drupal-plain:before {
+  content: "\e6e3";
+}
+
+/* line 414, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-firefox-plain-wordmark:before {
+  content: "\e75d";
+}
+
+/* line 418, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-firefox-plain:before {
+  content: "\e75e";
+}
+
+/* line 422, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-foundation-plain-wordmark:before {
+  content: "\e7a2";
+}
+
+/* line 426, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-foundation-plain:before {
+  content: "\e7a3";
+}
+
+/* line 430, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-git-plain-wordmark:before {
+  content: "\e7a7";
+}
+
+/* line 434, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-git-plain:before {
+  content: "\e7a8";
+}
+
+/* line 438, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-grunt-line-wordmark:before {
+  content: "\e7a9";
+}
+
+/* line 442, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-grunt-line:before {
+  content: "\e7aa";
+}
+
+/* line 446, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-grunt-plain-wordmark:before {
+  content: "\e7ea";
+}
+
+/* line 450, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-grunt-plain:before {
+  content: "\e7eb";
+}
+
+/* line 454, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-gulp-plain:before {
+  content: "\e7ec";
+}
+
+/* line 458, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-html5-plain-wordmark:before {
+  content: "\e7f6";
+}
+
+/* line 462, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-html5-plain:before {
+  content: "\e7f7";
+}
+
+/* line 466, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-ie10-original:before,
+.devicon-ie10-plain:before {
+  content: "\e7f8";
+}
+
+/* line 471, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-illustrator-line:before {
+  content: "\e7f9";
+}
+
+/* line 475, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-illustrator-plain:before {
+  content: "\e7fa";
+}
+
+/* line 479, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-inkscape-plain-wordmark:before {
+  content: "\e834";
+}
+
+/* line 483, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-inkscape-plain:before {
+  content: "\e835";
+}
+
+/* line 487, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-java-plain-wordmark:before {
+  content: "\e841";
+}
+
+/* line 491, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-java-plain:before {
+  content: "\e842";
+}
+
+/* line 495, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-javascript-plain:before {
+  content: "\e845";
+}
+
+/* line 499, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-jquery-plain-wordmark:before {
+  content: "\e849";
+}
+
+/* line 503, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-jquery-plain:before {
+  content: "\e84a";
+}
+
+/* line 507, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-krakenjs-plain-wordmark:before {
+  content: "\e84f";
+}
+
+/* line 511, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-krakenjs-plain:before {
+  content: "\e850";
+}
+
+/* line 515, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-laravel-plain-wordmark:before {
+  content: "\e851";
+}
+
+/* line 519, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-laravel-plain:before {
+  content: "\e852";
+}
+
+/* line 523, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-less-plain-wordmark:before {
+  content: "\e853";
+}
+
+/* line 527, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-linux-plain:before {
+  content: "\eb1c";
+}
+
+/* line 531, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-mongodb-plain-wordmark:before {
+  content: "\eb43";
+}
+
+/* line 535, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-mongodb-plain:before {
+  content: "\eb44";
+}
+
+/* line 539, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-moodle-plain-wordmark:before {
+  content: "\eb5a";
+}
+
+/* line 543, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-moodle-plain:before {
+  content: "\eb5b";
+}
+
+/* line 547, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-mysql-plain-wordmark:before {
+  content: "\eb60";
+}
+
+/* line 551, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-mysql-plain:before {
+  content: "\eb61";
+}
+
+/* line 555, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-nodejs-plain-wordmark:before {
+  content: "\eb69";
+}
+
+/* line 559, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-nodejs-plain:before {
+  content: "\eb6a";
+}
+
+/* line 563, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-oracle-original:before,
+.devicon-oracle-plain:before {
+  content: "\eb6b";
+}
+
+/* line 568, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-photoshop-line:before {
+  content: "\eb6c";
+}
+
+/* line 572, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-photoshop-plain:before {
+  content: "\eb6d";
+}
+
+/* line 576, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-php-plain:before {
+  content: "\eb71";
+}
+
+/* line 580, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-postgresql-plain-wordmark:before {
+  content: "\eb7c";
+}
+
+/* line 584, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-postgresql-plain:before {
+  content: "\eb7d";
+}
+
+/* line 588, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-python-plain-wordmark:before {
+  content: "\eb88";
+}
+
+/* line 592, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-python-plain:before {
+  content: "\eb89";
+}
+
+/* line 596, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-rails-plain-wordmark:before {
+  content: "\eba2";
+}
+
+/* line 600, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-rails-plain:before {
+  content: "\eba3";
+}
+
+/* line 604, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-react-original-wordmark:before,
+.devicon-react-plain-wordmark:before {
+  content: "\e600";
+}
+
+/* line 609, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-react-original:before,
+.devicon-react-plain:before {
+  content: "\e601";
+}
+
+/* line 614, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-ruby-plain-wordmark:before {
+  content: "\ebc9";
+}
+
+/* line 618, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-ruby-plain:before {
+  content: "\ebca";
+}
+
+/* line 622, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-sass-original:before,
+.devicon-sass-plain:before {
+  content: "\ebcb";
+}
+
+/* line 627, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-symfony-original-wordmark:before,
+.devicon-symfony-plain-wordmark:before {
+  content: "\e602";
+}
+
+/* line 632, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-symfony-original:before,
+.devicon-symfony-plain:before {
+  content: "\e605";
+}
+
+/* line 637, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-travis-plain-wordmark:before {
+  content: "\ebcc";
+}
+
+/* line 641, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-travis-plain:before {
+  content: "\ebcd";
+}
+
+/* line 645, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-trello-plain-wordmark:before {
+  content: "\ebce";
+}
+
+/* line 649, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-trello-plain:before {
+  content: "\ebcf";
+}
+
+/* line 653, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-ubuntu-plain-wordmark:before {
+  content: "\ebd0";
+}
+
+/* line 657, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-ubuntu-plain:before {
+  content: "\ebd1";
+}
+
+/* line 661, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-vim-plain:before {
+  content: "\ebf3";
+}
+
+/* line 665, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-windows8-original-wordmark:before,
+.devicon-windows8-plain-wordmark:before {
+  content: "\ebf4";
+}
+
+/* line 670, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-windows8-original:before,
+.devicon-windows8-plain:before {
+  content: "\ebf5";
+}
+
+/* line 675, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-wordpress-plain-wordmark:before {
+  content: "\ebfd";
+}
+
+/* line 679, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-wordpress-plain:before {
+  content: "\ebfe";
+}
+
+/* line 683, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-yii-plain-wordmark:before {
+  content: "\ec01";
+}
+
+/* line 687, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-yii-plain:before {
+  content: "\ec02";
+}
+
+/* line 691, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-zend-plain-wordmark:before {
+  content: "\ec03";
+}
+
+/* line 695, /Users/michaelcasciato/.rvm/gems/ruby-2.3.0/gems/devicon-rails-1.0.0/app/assets/stylesheets/devicon.css.scss */
+.devicon-zend-plain:before {
+  content: "\ec04";
+}
+.devicon-ssh-original-wordmark.colored,
+.devicon-ssh-plain-wordmark.colored {
+	color: #231F20;
+}
+.devicon-ssh-original.colored,
+.devicon-ssh-plain.colored {
+	color: #231F20;
+}
+.devicon-sourcetree-original-wordmark.colored,
+.devicon-sourcetree-plain-wordmark.colored {
+	color: #205081;
+}
+.devicon-sourcetree-original.colored,
+.devicon-sourcetree-plain.colored {
+	color: #205081;
+}
+.devicon-phpstorm-plain-wordmark.colored {
+	color: #5058A6;
+}
+.devicon-phpstorm-plain.colored {
+	color: #5058A6;
+}
+.devicon-jeet-plain-wordmark.colored {
+	color: #FF664A;
+}
+.devicon-jeet-plain.colored {
+	color: #FF664A;
+}
+.devicon-gitlab-plain-wordmark.colored {
+	color: #E24329;
+}
+.devicon-gitlab-plain.colored {
+	color: #E24329;
+}
+.devicon-github-original-wordmark.colored,
+.devicon-github-plain-wordmark.colored {
+	color: #181616;
+}
+.devicon-github-original.colored,
+.devicon-github-plain.colored {
+	color: #181616;
+}
+.devicon-d3js-plain.colored {
+	color: #f7974e;
+}
+.devicon-confluence-original-wordmark.colored,
+.devicon-confluence-plain-wordmark.colored {
+	color: #205081;
+}
+.devicon-confluence-original.colored,
+.devicon-confluence-plain.colored {
+	color: #205081;
+}
+.devicon-bitbucket-original-wordmark.colored,
+.devicon-bitbucket-plain-wordmark.colored {
+	color: #205081;
+}
+.devicon-bitbucket-original.colored,
+.devicon-bitbucket-plain.colored {
+	color: #205081;
+}
+.devicon-amazonwebservices-plain-wordmark.colored,
+.devicon-amazonwebservices-original.colored,
+.devicon-amazonwebservices-plain.colored {
+	color: #F7A80D;
+}
+.devicon-android-plain-wordmark.colored,
+.devicon-android-plain.colored {
+	color: #A4C439;
+}
+.devicon-angularjs-plain-wordmark.colored,
+.devicon-angularjs-plain.colored {
+	color: #c4473a;
+}
+.devicon-apache-line-wordmark.colored,
+.devicon-apache-line.colored,
+.devicon-apache-plain-wordmark.colored,
+.devicon-apache-plain.colored {
+	color: #303284;
+}
+.devicon-appcelerator-plain-wordmark.colored,
+.devicon-appcelerator-original.colored,
+.devicon-appcelerator-plain.colored {
+	color: #ac162c;
+}
+.devicon-apple-original.colored,
+.devicon-apple-plain.colored {
+	color: #000000;
+}
+.devicon-atom-original.colored,
+.devicon-atom-original-wordmark.colored,
+.devicon-atom-plain.colored,
+.devicon-atom-plain-wordmark.colored {
+	color: #67595D;
+}
+.devicon-backbonejs-plain.colored,
+.devicon-backbonejs-plain-wordmark.colored {
+	color: #002A41;
+}
+.devicon-bootstrap-plain-wordmark.colored,
+.devicon-bootstrap-plain.colored {
+	color: #59407f;
+}
+.devicon-bower-line-wordmark.colored,
+.devicon-bower-line.colored,
+.devicon-bower-plain-wordmark.colored,
+.devicon-bower-plain.colored {
+	color: #ef5734;
+}
+.devicon-c-line-wordmark.colored,
+.devicon-c-line.colored,
+.devicon-c-plain-wordmark.colored,
+.devicon-c-plain.colored {
+	color: #03599c;
+}
+.devicon-c-line-wordmark.colored,
+.devicon-c-line.colored,
+.devicon-c-plain-wordmark.colored,
+.devicon-c-plain.colored {
+	color: #03599c;
+}
+.devicon-chrome-plain-wordmark.colored,
+.devicon-chrome-plain.colored {
+	color: #ce4e4e;
+}
+.devicon-codeigniter-plain-wordmark.colored,
+.devicon-codeigniter-plain.colored {
+	color: #ee4323;
+}
+.devicon-coffeescript-original-wordmark.colored,
+.devicon-coffeescript-original.colored,
+.devicon-coffeescript-plain-wordmark.colored,
+.devicon-coffeescript-plain.colored {
+	color: #28334c;
+}
+.devicon-cplusplus-line-wordmark.colored,
+.devicon-cplusplus-line.colored,
+.devicon-cplusplus-plain-wordmark.colored,
+.devicon-cplusplus-plain.colored {
+	color: #9c033a;
+}
+.devicon-csharp-line-wordmark.colored,
+.devicon-csharp-line.colored,
+.devicon-csharp-plain-wordmark.colored,
+.devicon-csharp-plain.colored {
+	color: #68217a;
+}
+.devicon-css3-plain-wordmark.colored,
+.devicon-css3-plain.colored {
+	color: #3d8fc6;
+}
+.devicon-debian-plain-wordmark.colored,
+.devicon-debian-plain.colored {
+	color: #A80030;
+}
+.devicon-django-line.colored,
+.devicon-django-line-wordmark.colored,
+.devicon-django-plain.colored,
+.devicon-django-plain-wordmark.colored {
+	color: #003A2B;
+}
+.devicon-docker-plain-wordmark.colored,
+.devicon-docker-plain.colored {
+	color: #019bc6;
+}
+.devicon-doctrine-line-wordmark.colored,
+.devicon-doctrine-line.colored,
+.devicon-doctrine-plain-wordmark.colored,
+.devicon-doctrine-plain.colored {
+	color: #f56d39;
+}
+.devicon-dot-net-plain-wordmark.colored,
+.devicon-dot-net-plain.colored {
+	color: #1384c8;
+}
+.devicon-drupal-plain-wordmark.colored,
+.devicon-drupal-plain.colored {
+	color: #0073BA;
+}
+.devicon-erlang-plain-wordmark.colored,
+.devicon-erlang-plain.colored {
+	color: #a90533;
+}
+.devicon-firefox-plain-wordmark.colored,
+.devicon-firefox-plain.colored {
+	color: #DD732A;
+}
+.devicon-foundation-plain-wordmark.colored,
+.devicon-foundation-plain.colored {
+	color: #008cba;
+}
+.devicon-gimp-plain-wordmark.colored,
+.devicon-gimp-plain.colored {
+	color: #716955;
+}
+.devicon-git-plain-wordmark.colored,
+.devicon-git-plain.colored {
+	color: #f34f29;
+}
+.devicon-go-line.colored,
+.devicon-go-plain.colored {
+	color: #000000;
+}
+.devicon-grunt-line-wordmark.colored,
+.devicon-grunt-line.colored,
+.devicon-grunt-plain-wordmark.colored,
+.devicon-grunt-plain.colored {
+	color: #fcaa1a;
+}
+.devicon-gulp-plain.colored {
+	color: #eb4a4b;
+}
+.devicon-heroku-line-wordmark.colored,
+.devicon-heroku-line.colored,
+.devicon-heroku-plain-wordmark.colored,
+.devicon-heroku-plain.colored,
+.devicon-heroku-original-wordmark.colored,
+.devicon-heroku-original.colored {
+	color: #6762a6;
+}
+.devicon-html5-plain-wordmark.colored,
+.devicon-html5-plain.colored {
+	color: #e54d26;
+}
+.devicon-ie10-original.colored,
+.devicon-ie10-plain.colored {
+	color: #1EBBEE;
+}
+.devicon-illustrator-line.colored,
+.devicon-illustrator-plain.colored {
+	color: #faa625;
+}
+.devicon-inkscape-plain-wordmark.colored,
+.devicon-inkscape-plain.colored {
+	color: #000000;
+}
+.devicon-java-plain-wordmark.colored,
+.devicon-java-plain.colored {
+	color: #EA2D2E;
+}
+.devicon-javascript-plain.colored {
+	color: #f0db4f;
+}
+.devicon-jetbrains-plain.colored,
+.devicon-jetbrains-line.colored,
+.devicon-jetbrains-line-wordmark.colored,
+.devicon-jetbrains-plain-wordmark.colored {
+	color: #F68B1F;
+}
+.devicon-jquery-plain-wordmark.colored,
+.devicon-jquery-plain.colored {
+	color: #0769ad;
+}
+.devicon-krakenjs-plain.colored,
+.devicon-krakenjs-plain-wordmark.colored {
+	color: #0081C2;
+}
+.devicon-laravel-plain-wordmark.colored,
+.devicon-laravel-plain.colored {
+	color: #fd4f31;
+}
+.devicon-less-plain-wordmark.colored {
+	color: #2a4d80;
+}
+.devicon-linux-plain.colored {
+	color: #000000;
+}
+.devicon-meteor-plain.colored,
+.devicon-meteor-plain-wordmark.colored {
+	color: #df5052;
+}
+.devicon-mongodb-plain.colored,
+.devicon-mongodb-plain-wordmark.colored {
+	color: #4FAA41;
+}
+.devicon-moodle-plain.colored,
+.devicon-moodle-plain-wordmark.colored {
+	color: #F7931E;
+}
+.devicon-mysql-plain.colored,
+.devicon-mysql-plain-wordmark.colored {
+	color: #00618a;
+}
+.devicon-nginx-original.colored,
+.devicon-nginx-original-wordmark.colored,
+.devicon-nginx-plain.colored,
+.devicon-nginx-plain-wordmark.colored {
+	color: #090;
+}
+.devicon-nodejs-plain.colored,
+.devicon-nodejs-plain-wordmark.colored {
+	color: #83CD29;
+}
+.devicon-nodewebkit-line.colored,
+.devicon-nodewebkit-line-wordmark.colored,
+.devicon-nodewebkit-plain.colored,
+.devicon-nodewebkit-plain-wordmark.colored {
+	color: #3d3b47;
+}
+.devicon-oracle-original.colored,
+.devicon-oracle-plain.colored,
+.devicon-oracle-plain-wordmark.colored {
+	color: #EA1B22;
+}
+.devicon-photoshop-line.colored,
+.devicon-photoshop-plain.colored {
+	color: #80b5e2;
+}
+.devicon-php-plain.colored {
+	color: #6181b6;
+}
+.devicon-postgresql-plain.colored,
+.devicon-postgresql-plain-wordmark.colored {
+	color: #336791;
+}
+.devicon-python-plain-wordmark.colored,
+.devicon-python-plain.colored {
+	color: #ffd845;
+}
+.devicon-rails-plain-wordmark.colored,
+.devicon-rails-plain.colored {
+	color: #a62c46;
+}
+.devicon-ruby-plain-wordmark.colored,
+.devicon-ruby-plain.colored {
+	color: #d91404;
+}
+.devicon-safari-line-wordmark.colored,
+.devicon-safari-line.colored,
+.devicon-safari-plain-wordmark.colored,
+.devicon-safari-plain.colored {
+	color: #1B88CA;
+}
+.devicon-react-plain-wordmark.colored,
+.devicon-react-plain.colored,
+.devicon-react-original-wordmark.colored,
+.devicon-react-original.colored {
+	color: #61dafb;
+}
+.devicon-redhat-plain-wordmark.colored,
+.devicon-redhat-plain.colored,
+.devicon-redhat-original-wordmark.colored,
+.devicon-redhat-original.colored {
+	color: #e93442;
+}
+.devicon-redis-plain-wordmark.colored,
+.devicon-redis-plain.colored{
+	color: #d82c20;
+}
+.devicon-ubuntu-plain-wordmark.colored,
+.devicon-ubuntu-plain.colored {
+	color: #DD4814;
+}
+.devicon-sass-original.colored,
+.devicon-sass-plain.colored,
+.devicon-sass-plain-wordmark.colored {
+	color: #cc6699;
+}
+.devicon-symfony-original.colored,
+.devicon-symfony-original-wordmark.colored,
+.devicon-symfony-plain.colored,
+.devicon-symfony-plain-wordmark.colored {
+	color: #1A171B;
+}
+.devicon-travis-plain-wordmark.colored,
+.devicon-travis-plain.colored {
+	color: #bb2031;
+}
+.devicon-trello-plain-wordmark.colored,
+.devicon-trello-plain.colored {
+	color: #23719f;
+}
+.devicon-ubuntu-plain-wordmark.colored,
+.devicon-ubuntu-plain.colored {
+	color: #dd4814;
+}
+.devicon-vim-plain.colored {
+	color: #179a33;
+}
+.devicon-windows8-original-wordmark.colored,
+.devicon-windows8-original.colored,
+.devicon-windows8-plain-wordmark.colored,
+.devicon-windows8-plain.colored {
+	color: #00adef;
+}
+.devicon-wordpress-plain-wordmark.colored,
+.devicon-wordpress-plain.colored {
+	color: #494949;
+}
+.devicon-yii-plain-wordmark.colored,
+.devicon-yii-plain.colored {
+	color: #0073bb;
+}
+.devicon-zend-plain-wordmark.colored,
+.devicon-zend-plain.colored {
+	color: #68b604;
+}
