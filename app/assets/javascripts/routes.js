@@ -6,9 +6,9 @@ angular
                 url: '/',
                 templateUrl: 'home/home.html'
             })
-            .state('home.about', {
-                url: 'about',
-                templateUrl: 'about/about.html'
+            .state('home.skills', {
+                url: 'skills',
+                templateUrl: 'skills/skills.html'
             })
             .state('home.portfolio', {
                 url: 'portfolio',
