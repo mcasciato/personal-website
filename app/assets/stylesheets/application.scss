@@ -6,6 +6,8 @@
  */
 
 @import 'semantic-ui/dist/semantic.css';
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans+Mono');
+
 
 .ui.inverted.thin.sidebar {
     background-color: #16a085;
@@ -54,4 +56,9 @@ body {
         font-size: 16px;
     }
 
+}
+
+code {
+    background-color: #F3F3F3;
+    font-family: 'Droid Sans Mono';
 }
