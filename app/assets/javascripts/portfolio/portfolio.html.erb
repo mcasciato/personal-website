@@ -1,7 +1,7 @@
 <h1>Portfolio</h1>
 
 <div class="ui two stacked cards">
-    <div class="card">
+    <div class="ui link card" ui-sref='home.flix4me'>
         <div class="image">
             <img src="<%= asset_path('flix4me.jpeg') %>" alt="">
         </div>
@@ -11,12 +11,8 @@
           A fun, interactive app to log your favorite movies -- It’s the Goodreads for movies!
         </div>
       </div>
-      <div class="ui bottom attached button" ui-sref='home.flix4me'>
-        <i class="add icon"></i>
-        More Info
-      </div>
     </div>
-    <div class="card">
+    <div class="ui link card" ui-sref="home.myceus">
         <div class="image">
             <img src="<%= asset_path('myceus.jpeg') %>" alt="">
         </div>
@@ -26,12 +22,8 @@
           The go-to stop for healthcare professionals to log their continuing education units.
         </div>
       </div>
-      <div class="ui bottom attached button" ui-sref="home.myceus">
-        <i class="add icon"></i>
-        More Info
-      </div>
     </div>
-    <div class="card">
+    <div class="ui link card" ui-sref="home.sinatraInstruments">
         <div class="image">
             <img src="<%= asset_path('sinatraInstruments.jpeg') %>" alt="">
         </div>
@@ -41,12 +33,8 @@
            An elegant way for musicians to organize their instrument collection.
         </div>
       </div>
-      <div class="ui bottom attached button" ui-sref="home.sinatraInstruments">
-        <i class="add icon"></i>
-        More Info
-      </div>
     </div>
-    <div class="card">
+    <div class="ui link card" ui-sref="home.politicalNews">
         <div class="image">
             <img src="<%= asset_path('politicalNews.jpeg') %>" alt="">
         </div>
@@ -55,10 +43,6 @@
         <div class="description">
           A fast, simple CLI interface for catching up on the latest political news.
         </div>
-      </div>
-      <div class="ui bottom attached button" ui-sref="home.politicalNews">
-        <i class="add icon"></i>
-        More Info
       </div>
     </div>
 </div>
