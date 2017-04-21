@@ -28,6 +28,7 @@ gem 'active_model_serializers'
 gem 'angular-rails-templates'
 # Use Devicon for code language icons
 gem 'devicon-rails'
+gem 'haml'
 
 
 group :development, :test do
