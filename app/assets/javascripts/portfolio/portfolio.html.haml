@@ -1,0 +1,34 @@
+%h1 Portfolio
+.ui.two.stacked.cards
+    .ui.link.card{"ui-sref" => 'home.flix4me'}
+        .image
+            %img{:alt => "Flix4Me", :src => "#{asset_path('flix4me.jpeg')}"}/
+        .content
+            .header
+                Flix4Me
+            .description
+                A fun, interactive app to log your favorite movies -- It’s the Goodreads for movies!
+    .ui.link.card{"ui-sref" => 'home.myceus'}
+        .image
+            %img{:alt => "MyCEUs", :src => "#{asset_path('myceus.jpeg')}"}/
+        .content
+            .header
+                MyCEUs
+            .description
+                The go-to stop for healthcare professionals to log their continuing education units.
+    .ui.link.card{"ui-sref" => 'home.sinatraInstruments'}
+        .image
+            %img{:alt => "My Instruments", :src => "#{asset_path('sinatraInstruments.jpeg')}"}/
+        .content
+            .header
+                My Instruments
+            .description
+                An elegant way for musicians to organize their instrument collection.
+    .ui.link.card{"ui-sref" => 'home.politicalNews'}
+        .image
+            %img{:alt => "Political News", :src => "#{asset_path('politicalNews.jpeg')}"}/
+        .content
+            .header
+                Political News
+            .description
+                A fast, simple CLI interface for catching up on the latest political news.
