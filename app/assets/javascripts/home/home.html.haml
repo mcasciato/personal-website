@@ -1,0 +1,28 @@
+.ui.vertical.inverted.thin.sidebar.labeled.icon.menu.left.visible
+  %a.item.active{"ui-sref" => "home"}
+    %i.large.home.icon>
+    Home
+  %a.item{"ui-sref" => "home.portfolio"}
+    %i.large.folder.open.icon>
+    Portfolio
+  %a.item{"ui-sref" => "home.skills"}
+    %i.large.terminal.icon>
+    Skills
+  %a.item{"ui-sref" => "home.contact"}
+    %i.large.call.icon>
+    Contact
+.pusher
+  .ui.grid
+    .twelve.wide.column
+      %ui-view.ui.basic.segment
+        %div{"ng-include" => "'home/home.welcome.html'"}
+:javascript
+  $('.ui.inverted.thin.sidebar')
+    .on('click', '.item', function() {
+      if(!$(this).hasClass('icon')) {
+        $(this)
+          .addClass('active')
+          .siblings('.item')
+            .removeClass('active');
+      }
+    });
