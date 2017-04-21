@@ -1,0 +1,51 @@
+%h1
+    MyCEUS
+    %span
+        %a.large.default.right.floated.ui.button{:href => "https://github.com/mcasciato/rails-assessment-ceu-tracker", :target => "_blank"}
+            %i.github.icon
+            View on Github
+%p
+    %em The go-to stop for healthcare professionals to log their continuing education units.
+%p
+    When I was tasked with building a Rails CRUD app, naturally I turned to my wife for ideas (as any wise husband would do). Being an Occuptational Therapist, my wife has to accumulate a certain number of continuning educatin units (CEUS) in order to maintain her license. She told me it would be nice to have an app to easily keep track of these. Boom! There was my idea!
+%p
+    Upon signing up, either manually or via Facebook (OmniAuth), a user can log their CEUs, entering in all pertinent information for a CEU: Title, Date, Location, Duration, and Certification (State or National).
+%p
+    I later added JavaScript and jQuery functionality to the app, specficially the following features:
+.ui.list
+    .item
+        .header New CEU Creation
+        A CEU's information will appear in a separate
+        %code div
+        upon to creation to show that the data has been successfully persisted.
+    .item
+        .header Show All CEUs
+        On the user's landing page, all CEUs are hidden by default. Simply click a button to display the list.
+    .item
+        .header Go to Next CEU
+        Instead of having to navigate back to the list of all CEUs, a user can simply click a button to bring up the next CEU.
+%hr/
+.ui.list
+    .item
+        %i.check.square.icon
+        .content
+            Leveraged jQuery and JavaScript for AJAX functionality
+    .item
+        %i.check.square.icon
+        .content
+            Used Devise and OmniAuth for OAuth authentication with Facebook
+    .item
+        %i.check.square.icon
+        .content
+            Built APIs using Ruby on Rails and the MVC pattern
+%h3 Primary Skills Utilized:
+.ui.statistics
+    .statistic
+        .value
+            %i.devicon-jquery-plain.colored
+    .statistic
+        .value
+            %i.devicon-rails-plain.colored
+    .statistic
+        .value
+            %i.devicon-bootstrap-plain.colored

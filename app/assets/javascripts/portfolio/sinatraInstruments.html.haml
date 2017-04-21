@@ -1,0 +1,32 @@
+%h1
+    My Instruments
+    %span
+        %a.large.default.right.floated.ui.button{:href => "https://github.com/mcasciato/sinatra-instruments", :target => "_blank"}
+            %i.github.icon
+            View on Github
+%p
+    %em An elegant way for musicians to organize their instrument collection.
+%p
+    I come from a family of musicians. My father and uncle grew up playing guitar at all hours of the day, much to the shegrin of my grandparents. My mother and sister play the piano. Myself, I can play guitar, saxophone, drums, bass, ukulele, and am teaching myself piano. So, yeah, of course I'd develop at least one app about music.
+%p
+    This was my first foray into an actual web app. I utilized the Sintatra framework to create a basic MVC CRUD app. A user can catalogue their instrument collection, adding new instruments with Name and Description properties. There is also basic authentication built into the app via the
+    %code BCrypt
+    gem, so a user can securely sign up and log in with ease.
+%hr/
+.ui.list
+    .item
+        %i.check.square.icon
+        .content
+            Engineered via Sinatra to build an MVC application
+    .item
+        %i.check.square.icon
+        .content
+            Designed a secure database with BCrypt using ActiveRecord associations
+%h3 Primary Skills Utilized:
+.ui.statistics
+    .statistic
+        .value
+            %i.devicon-ruby-plain.colored
+    .statistic
+        .value
+            %i.devicon-bootstrap-plain.colored
