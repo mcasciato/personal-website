@@ -8,53 +8,6 @@
 @import 'semantic-ui/dist/semantic.css';
 @import url('https://fonts.googleapis.com/css?family=Droid+Sans+Mono');
 
-
-.ui.inverted.thin.sidebar {
-    background-color: #16a085;
-}
-
-.ui.bottom.fixed.three.item.menu {
-    border: none;
-}
-
-.heart.icon {
-    color: red;
-}
-
-#contact {
-    i {
-        transition: all 0.2s ease-in-out;
-    }
-
-    a {
-        color: inherit;
-        text-decoration: none;
-    }
-}
-
-i {
-    &.linkedin {
-        &:hover {
-            opacity: .9;
-            color: #1B85BC;
-        }
-    }
-
-    &.twitter {
-        &:hover {
-            opacity: .9;
-            color: #1DA1F2;
-        }
-    }
-
-    &.medium {
-        &:hover {
-            opacity: .9;
-            color: #00AB6B;
-        }
-    }
-}
-
 body {
     p {
         font-size: 16px;
