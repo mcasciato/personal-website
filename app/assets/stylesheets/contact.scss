@@ -1,0 +1,33 @@
+#contact {
+    i {
+        transition: all 0.2s ease-in-out;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+}
+// Social Media Icons
+i {
+    &.linkedin {
+        &:hover {
+            opacity: .9;
+            color: #1B85BC;
+        }
+    }
+
+    &.twitter {
+        &:hover {
+            opacity: .9;
+            color: #1DA1F2;
+        }
+    }
+
+    &.medium {
+        &:hover {
+            opacity: .9;
+            color: #00AB6B;
+        }
+    }
+}
